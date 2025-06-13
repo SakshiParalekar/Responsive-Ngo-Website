@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hope Foundation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hope Foundation</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <figure>
+      <div class="slide">
+        <img src="images/image1.jpg" alt="Image1">
+      </div>
+      <div class="slide">
+        <img src="images/image2.jpg" alt="Image2">
+      </div>
+      <div class="slide">
+        <img src="images/image3.jpg" alt="Image3">
+      </div>
+      <div class="slide">
+        <img src="images/image4.jpg" alt="Image4">
+      </div>
+      <div class="slide">
+        <img src="images/image5.jpg" alt="Image5">
+      </div>
+    </figure>
+  </div>
+
+  <div class="container">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a non-profit working for children's education and women empowerment.</p>
+  </section>
+
+  <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program">
+            <p>Free Tuition for Underprivileged Children</p>
+            <img src="images/classroom.jpg" alt="Free Tuition">
+            
+        </div>
+        <div class="program">
+            <p>Women's Skill Development & Empowerment</p>
+            <img src="images/women.jpg" alt="Women Skill Development">
+            
+        </div>
+  </section>
+
+  <section id="donate">
+        <h2>Donate Now</h2>
+        <form onsubmit="alert('Thank you for your support.'); return false;">
+            <label>Name: <input type="text" required></label><br>
+            <label>Email: <input type="email" required></label><br>
+            <label>Amount(₹): <input type="number" required></label><br>
+            <button type="submit">Donate</button>
+        </form>
+  </section>
+
+  <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: hopefoundation@example.org</p>
+        <p>Phone: +91 9876543210</p>
+  </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hope Foundation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
